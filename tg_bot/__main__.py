@@ -142,8 +142,8 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
-                                                                       url="t.me/d3vil_panda_bot")],
-                                                                                   [InlineKeyboardButton(text="ADD d3vil_panda_bot TO YOUR GROUP",
+                                                                       url="t.me/CHAIRMAN_AI_BOT")],
+                                                                                   [InlineKeyboardButton(text="ADD CHAIRMAN_AI_BOT TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Source Code",
                                                                        url="https://github.com/legendx22/GRANDROBOT")
